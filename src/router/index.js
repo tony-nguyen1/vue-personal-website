@@ -5,7 +5,7 @@ import CustomHome from "../views/FullBackGroundImage.vue";
 const routes = [
   {
     path: "/",
-    name: "home",
+    name: "accueil",
     component: CustomHome,
   },
   {

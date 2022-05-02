@@ -1,6 +1,6 @@
 <template>
   <h1>Études</h1>
-  <div id="timeline-container">
+  <div id="timeline-container" class="overflow-hidden">
     <div class="timeline">
       <div class="entry">
         <div class="title">

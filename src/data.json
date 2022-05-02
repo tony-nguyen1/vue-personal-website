@@ -2,11 +2,16 @@
   "nomRubriques": [
     {
       "id": "rubrique-1",
+      "nom": "Accueil", 
+      "lien": "accueil"
+    },
+    {
+      "id": "rubrique-2",
       "nom": "Étude", 
       "lien": "etude"
     },
     {
-      "id": "rubrique-2",
+      "id": "rubrique-3",
       "nom": "Portfolio",
       "lien": "portfolio"
     }
