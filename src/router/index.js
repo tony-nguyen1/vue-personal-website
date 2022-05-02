@@ -1,11 +1,12 @@
 import { createRouter, createWebHistory } from "vue-router";
-import HomeView from "../views/HomeView.vue";
+// import HomeView from "../views/HomeView.vue";
+import CustomHome from "../views/FullBackGroundImage.vue";
 
 const routes = [
   {
     path: "/",
     name: "home",
-    component: HomeView,
+    component: CustomHome,
   },
   {
     path: "/about",
@@ -15,6 +16,18 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/AboutView.vue"),
+  },
+  {
+    path: "/portfolio",
+    name: "portfolio",
+    component: () =>
+      import(/* webpackChunkName: "portfolio" */ "../views/PortfolioView.vue"),
+  },
+  {
+    path: "/etude",
+    name: "etude",
+    component: () =>
+      import(/* webpackChunkName: "etude" */ "../views/EtudeView.vue"),
   },
 ];
 

@@ -1,0 +1,46 @@
+{
+  "nomRubriques": [
+    {
+      "id": "rubrique-1",
+      "nom": "Étude", 
+      "lien": "etude"
+    },
+    {
+      "id": "rubrique-2",
+      "nom": "Portfolio",
+      "lien": "portfolio"
+    }
+  ],
+  "etudes":[
+    {
+      "id": "etude-1", 
+      "sujet": "DUT informatique", 
+      "lieu": "IUT Montpellier-Sètes"
+    }, 
+    {
+      "id": "etude-2", 
+      "sujet":"Licence informatique", 
+      "lieu": "Faculté des Sciences"
+    }
+  ],
+  "portfolio": [
+    {
+      "id": "projet-1",
+      "nom": "Siteweb",
+      "langages": ["html.svg", "css.svg", "javascript.png"],
+      "tech": ["vue.png", "tailwind.svg"],
+      "description": "Application web monopage ou Single Page Application (SPA) réalisé avec le framework Vue.js",
+      "video": "youtube.com",
+      "code": "http://github.com"
+    },
+    {
+      "id": "projet-2",
+      "nom": "Qui-est-ce?",
+      "langages": ["python.svg"],
+      "tech": ["tkinter.png"],
+      "description": "Le jeu de plateau récréer en Python3 avec une Interface Homme Machine à l'aide de Tkinter",
+      "video": "youtube.com",
+      "code": "http://github.com"
+    }
+  ]
+}

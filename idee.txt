@@ -1,0 +1,11 @@
+Rubrique étude:
+timeline avec mes études
+lien vers une autre page pour chaque étude
+lien vers projet réaliser
+page avec une carte
+
+Rubrique projet:
+carte vers projet
+On peut trier
+
+Sur chaque projet, il y a une vidéo un lien vers code source
