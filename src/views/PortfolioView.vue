@@ -1,19 +1,23 @@
 <template>
-  <h1>Portefolio</h1>
-  <div class="flex flex-col mx-auto space-y-4 leading-6 max-w-2xl">
+  <div id="content" class="row">
+    <h1>Portefolio</h1>
     <div
-      class="mx-9 bg-orange-200 drop-shadow-2xl mb-16"
-      v-for="projet in projets"
-      :key="projet.id"
+      class="flex flex-col mx-auto space-y-4 leading-6 max-w-2xl space-y-16 mb-16"
     >
-      <UnProjet
-        :titre="projet.nom"
-        :description="projet.description"
-        :lienCode="projet.code"
-        :lienVideo="projet.video"
-        :langagesUtiliseTab="projet.langages"
-        :techUtiliseTab="projet.tech"
-      ></UnProjet>
+      <div
+        class="mx-9 bg-orange-200 drop-shadow-2xl carte"
+        v-for="projet in projets"
+        :key="projet.id"
+      >
+        <UnProjet
+          :titre="projet.nom"
+          :description="projet.description"
+          :lienCode="projet.code"
+          :lienVideo="projet.video"
+          :langagesUtiliseTab="projet.langages"
+          :techUtiliseTab="projet.tech"
+        ></UnProjet>
+      </div>
     </div>
   </div>
 </template>
@@ -33,3 +37,9 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+#content {
+  overflow: auto;
+}
+</style>

@@ -1,88 +1,90 @@
 <template>
-  <h1>Études</h1>
-  <div id="timeline-container" class="overflow-hidden">
-    <div class="timeline">
-      <div class="entry">
-        <div class="title">
-          <h3>2021 - Present</h3>
-          <p>Faculté des Sciences</p>
-          <p>Montpellier</p>
+  <div id="content" class="row overflow-auto">
+    <h1>Études</h1>
+    <div id="timeline-container" class="overflow-hidden">
+      <div class="timeline">
+        <div class="entry">
+          <div class="title">
+            <h3>2021 - Present</h3>
+            <p>Faculté des Sciences</p>
+            <p>Montpellier</p>
+          </div>
+          <div class="body">
+            <p>Licence informatique</p>
+            <ul>
+              <li>Rerum sit libero possimus amet excepturi</li>
+              <li>
+                Exercitationem enim dolores sunt praesentium dolorum praesentium
+              </li>
+              <li>
+                Modi aut dolores dignissimos sequi sit ut aliquid molestias
+                deserunt illo
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="body">
-          <p>Licence informatique</p>
-          <ul>
-            <li>Rerum sit libero possimus amet excepturi</li>
-            <li>
-              Exercitationem enim dolores sunt praesentium dolorum praesentium
-            </li>
-            <li>
-              Modi aut dolores dignissimos sequi sit ut aliquid molestias
-              deserunt illo
-            </li>
-          </ul>
+        <div class="entry">
+          <div class="title">
+            <h3>2018 - 2020</h3>
+            <p>IUT Montpellier-Sètes</p>
+          </div>
+          <div class="body">
+            <p>DUT informatique</p>
+            <ul>
+              <li>Rerum sit libero possimus amet excepturi</li>
+              <li>
+                Exercitationem enim dolores sunt praesentium dolorum praesentium
+              </li>
+              <li>
+                Modi aut dolores dignissimos sequi sit ut aliquid molestias
+                deserunt illo
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-      <div class="entry">
-        <div class="title">
-          <h3>2018 - 2020</h3>
-          <p>IUT Montpellier-Sètes</p>
+        <div class="entry">
+          <div class="title">
+            <h3>2009 - 2010</h3>
+            <p>Title, Company</p>
+          </div>
+          <div class="body">
+            <p>
+              Voluptatibus veniam ea reprehenderit atque reiciendis non laborum
+              adipisci ipsa pariatur omnis.
+            </p>
+            <ul>
+              <li>Rerum sit libero possimus amet excepturi</li>
+              <li>
+                Exercitationem enim dolores sunt praesentium dolorum praesentium
+              </li>
+              <li>
+                Modi aut dolores dignissimos sequi sit ut aliquid molestias
+                deserunt illo
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="body">
-          <p>DUT informatique</p>
-          <ul>
-            <li>Rerum sit libero possimus amet excepturi</li>
-            <li>
-              Exercitationem enim dolores sunt praesentium dolorum praesentium
-            </li>
-            <li>
-              Modi aut dolores dignissimos sequi sit ut aliquid molestias
-              deserunt illo
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="entry">
-        <div class="title">
-          <h3>2009 - 2010</h3>
-          <p>Title, Company</p>
-        </div>
-        <div class="body">
-          <p>
-            Voluptatibus veniam ea reprehenderit atque reiciendis non laborum
-            adipisci ipsa pariatur omnis.
-          </p>
-          <ul>
-            <li>Rerum sit libero possimus amet excepturi</li>
-            <li>
-              Exercitationem enim dolores sunt praesentium dolorum praesentium
-            </li>
-            <li>
-              Modi aut dolores dignissimos sequi sit ut aliquid molestias
-              deserunt illo
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="entry">
-        <div class="title">
-          <h3>2006 - 2008</h3>
-          <p>Title, Company</p>
-        </div>
-        <div class="body">
-          <p>
-            Voluptatibus veniam ea reprehenderit atque reiciendis non laborum
-            adipisci ipsa pariatur omnis.
-          </p>
-          <ul>
-            <li>Rerum sit libero possimus amet excepturi</li>
-            <li>
-              Exercitationem enim dolores sunt praesentium dolorum praesentium
-            </li>
-            <li>
-              Modi aut dolores dignissimos sequi sit ut aliquid molestias
-              deserunt illo
-            </li>
-          </ul>
+        <div class="entry">
+          <div class="title">
+            <h3>2006 - 2008</h3>
+            <p>Title, Company</p>
+          </div>
+          <div class="body">
+            <p>
+              Voluptatibus veniam ea reprehenderit atque reiciendis non laborum
+              adipisci ipsa pariatur omnis.
+            </p>
+            <ul>
+              <li>Rerum sit libero possimus amet excepturi</li>
+              <li>
+                Exercitationem enim dolores sunt praesentium dolorum praesentium
+              </li>
+              <li>
+                Modi aut dolores dignissimos sequi sit ut aliquid molestias
+                deserunt illo
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
@@ -154,7 +156,7 @@ body * {
   background-color: #fff;
   border-radius: 100%;
   top: 15%;
-  right: -8px;
+  right: -4px;
   z-index: 99;
 }
 .entry .title h3 {

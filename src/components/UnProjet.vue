@@ -62,7 +62,7 @@ export default {
     getNom(param) {
       let nom = param.split(".")[0];
       let nomClean = nom.charAt(0).toUpperCase() + nom.slice(1);
-      console.log(nomClean);
+      // console.log(nomClean);
       return nomClean;
     },
   },
