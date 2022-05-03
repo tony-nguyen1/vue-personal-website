@@ -1,6 +1,6 @@
 <template>
   <h1>Portefolio</h1>
-  <div class="justify-center content-center w-1/3">
+  <div class="flex flex-col mx-auto space-y-4 leading-6 max-w-2xl">
     <div
       class="mx-9 bg-orange-200 drop-shadow-2xl mb-16"
       v-for="projet in projets"

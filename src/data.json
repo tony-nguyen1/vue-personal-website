@@ -46,6 +46,15 @@
       "description": "Le jeu de plateau récréer en Python3 avec une Interface Homme Machine à l'aide de Tkinter",
       "video": "youtube.com",
       "code": "http://github.com"
+    },
+    {
+      "id": "projet-3",
+      "nom": "Beepboop",
+      "langages": ["html.svg", "css.svg", "javascript.png", "python.svg"],
+      "tech": ["vue.png", "tailwind.svg"],
+      "description": "Description",
+      "video": "youtube.com",
+      "code": "http://github.com"
     }
   ]
 }
