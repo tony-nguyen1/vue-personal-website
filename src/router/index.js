@@ -35,6 +35,10 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "etude" */ "../views/LayoutTestView.vue"),
   },
+  {
+    path: "/portfolio/:id",
+    component: () => import("../views/BeepboopView.vue"),
+  },
 ];
 
 const router = createRouter({

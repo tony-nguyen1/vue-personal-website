@@ -7,5 +7,23 @@ page avec une carte
 Rubrique projet:
 carte vers projet
 On peut trier
+1 page par projet
+	-particularités
+	
+Site web perso:
+Un router et des vues
+Le contenu qui doit être chargé est chargé 1 seul fois et quand il le faut. Pas besoin re-télécharger les choses qui ne changes pas.
+
+Qui-est-ce ?
+Une interface homme-machine
+Un chat
+
+Site marchand
+Modèle MVC
 
 Sur chaque projet, il y a une vidéo un lien vers code source
+
+DEVELOPPEUR
+ENGAGEZ-MOI
+PROGRAMMEUR
+3 lignes et 3 colonnes qui alterne

@@ -35,7 +35,7 @@
       "langages": ["html.svg", "css.svg", "javascript.png"],
       "tech": ["vue.png", "tailwind.svg"],
       "description": "Application web monopage ou Single Page Application (SPA) réalisé avec le framework Vue.js",
-      "video": "youtube.com",
+      "video": "http://youtube.com",
       "code": "http://github.com"
     },
     {
@@ -44,7 +44,7 @@
       "langages": ["python.svg"],
       "tech": ["tkinter.png"],
       "description": "Le jeu de plateau récréer en Python3 avec une Interface Homme Machine à l'aide de Tkinter",
-      "video": "youtube.com",
+      "video": "http://youtube.com",
       "code": "http://github.com"
     },
     {
@@ -53,7 +53,16 @@
       "langages": ["html.svg", "css.svg", "javascript.png", "python.svg"],
       "tech": ["vue.png", "tailwind.svg"],
       "description": "Description",
-      "video": "youtube.com",
+      "video": "http://youtube.com",
+      "code": "http://github.com"
+    },
+    {
+      "id": "projet-4",
+      "nom": "Takuzu",
+      "langages": ["java.svg"],
+      "tech": [],
+      "description": "Comme le Sudoku",
+      "video": "http://youtube.com",
       "code": "http://github.com"
     }
   ]
