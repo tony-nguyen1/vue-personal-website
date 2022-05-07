@@ -3,14 +3,17 @@
     <div id="filtre">
       <p v-if="filterTurnedOn()">Filtre activé</p>
       <p v-else>Filtre désactivé</p>
-      <button
-        v-for="unLangage in this.getAllLangages()"
-        @click="toggleLangage(unLangage)"
-        :key="unLangage"
-      >
-        {{ unLangage }}
-      </button>
-      <button @click="filterTurnedOn">test</button>
+      <!-- div qui contient les chips -->
+      <div class="flex justify-center space-x-2">
+        <FiltreLangage
+          v-for="unLangage in this.getAllLangages()"
+          @click="toggleLangage(unLangage)"
+          :key="unLangage"
+          :nom="unLangage"
+          class="rounded-full bg-violet-400 px-2 pt-px"
+          :class="{ 'bg-violet-700': langagesInteresse[unLangage] }"
+        />
+      </div>
     </div>
     <h1>Portefolio</h1>
     <div
@@ -37,6 +40,7 @@
 
 <script>
 import UnProjet from "@/components/UnProjet.vue";
+import FiltreLangage from "@/components/FiltreLangage.vue";
 import sourceData from "@/data.json";
 
 export default {
@@ -48,6 +52,7 @@ export default {
   },
   components: {
     UnProjet,
+    FiltreLangage,
   },
   computed: {
     getRelevantProjects() {
