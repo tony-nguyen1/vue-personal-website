@@ -139,6 +139,6 @@ export default {
 
 <style scoped>
 #content {
-  overflow: auto;
+  overflow-y: scroll;
 }
 </style>
