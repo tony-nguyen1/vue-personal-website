@@ -36,7 +36,17 @@
       "tech": ["vue.png", "tailwind.svg"],
       "description": "Application web monopage ou Single Page Application (SPA) réalisé avec le framework Vue.js",
       "video": "http://youtube.com",
-      "code": "http://github.com"
+      "code": "http://github.com",
+      "particularites": [
+        {
+          "titre":"Architecture",
+          "contenu": "Ce site est crée à partir de vue et d'un routeur."
+        },
+        {
+          "titre":"Les performances",
+          "contenu": "Le contenu qui doit être chargé est chargé 1 seul fois et quand il le faut. Pas besoin re-télécharger les choses qui ne changes pas."
+        }
+      ]
     },
     {
       "id": "projet-2",
@@ -45,7 +55,8 @@
       "tech": ["tkinter.png"],
       "description": "Le jeu de plateau récréer en Python3 avec une Interface Homme Machine à l'aide de Tkinter",
       "video": "http://youtube.com",
-      "code": "http://github.com"
+      "code": "http://github.com",
+      "particularite": [{"titre":"titre-placeholder", "contenu": "contenue-placeholder"}]
     },
     {
       "id": "projet-3",
@@ -54,7 +65,8 @@
       "tech": ["vue.png", "tailwind.svg"],
       "description": "Description",
       "video": "http://youtube.com",
-      "code": "http://github.com"
+      "code": "http://github.com",
+      "particularite": [{"titre":"titre-placeholder", "contenu": "contenue-placeholder"}]
     },
     {
       "id": "projet-4",
@@ -63,7 +75,8 @@
       "tech": [],
       "description": "Comme le Sudoku",
       "video": "http://youtube.com",
-      "code": "http://github.com"
+      "code": "http://github.com",
+      "particularite": [{"titre":"titre-placeholder", "contenu": "contenue-placeholder"}]
     }
   ]
 }

@@ -10,8 +10,11 @@
           @click="toggleLangage(unLangage)"
           :key="unLangage"
           :nom="unLangage"
-          class="rounded-full bg-violet-400 px-2 pt-px"
-          :class="{ 'bg-violet-700': langagesInteresse[unLangage] }"
+          class="rounded-full bg-violet-300 px-2 pt-px"
+          :class="{
+            'bg-violet-600': langagesInteresse[unLangage],
+            'text-slate-100': langagesInteresse[unLangage],
+          }"
         />
       </div>
     </div>

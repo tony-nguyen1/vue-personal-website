@@ -37,7 +37,7 @@ const routes = [
   },
   {
     path: "/portfolio/:id",
-    component: () => import("../views/BeepboopView.vue"),
+    component: () => import("../views/ProjetView.vue"),
     props: (route) => ({ id: route.params.id }),
   },
 ];

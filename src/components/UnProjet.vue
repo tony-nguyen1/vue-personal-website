@@ -2,9 +2,10 @@
 <template>
   <div class="item py-4">
     <h3>{{ titre }}</h3>
-    <div>
+    <div id="langUtilises">
       <h4>Langages utilisés</h4>
-      <ul class="flex flex-row justify-center">
+      <projetLangages :noms="langagesUtiliseTab" />
+      <!-- <ul class="flex flex-row justify-center">
         <li v-for="unLangage in langagesUtiliseTab" :key="unLangage">
           {{ getNom(unLangage) }}
           <img
@@ -13,11 +14,12 @@
             :alt="unLangage + ' logo'"
           />
         </li>
-      </ul>
+      </ul> -->
     </div>
-    <div>
+    <div id="techUtilises">
       <h4>Framework/bibliothèques utilisées</h4>
-      <ul class="flex flex-row justify-center">
+      <projetLangages :noms="techUtiliseTab" />
+      <!-- <ul class="flex flex-row justify-center">
         <li v-for="uneTech in techUtiliseTab" :key="uneTech">
           {{ getNom(uneTech) }}
           <img
@@ -26,7 +28,7 @@
             :alt="uneTech + ' logo'"
           />
         </li>
-      </ul>
+      </ul> -->
     </div>
     <p>{{ description }}</p>
     <div class="flex flex-row justify-center space-x-4">
@@ -48,8 +50,13 @@
 </template>
 
 <script>
+import projetLangages from "@/components/ProjetLangages.vue";
+
 export default {
   name: "UnProjet",
+  components: {
+    projetLangages,
+  },
   props: {
     titre: String,
     description: String,
@@ -68,3 +75,10 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+button {
+  transition: transform 0.2s;
+  transition-timing-function: ease-in-out;
+}
+</style>
